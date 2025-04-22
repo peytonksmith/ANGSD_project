@@ -9,5 +9,5 @@ bam_list=$(find . -type f -name "*.Aligned.sortedByCoord.out.bam")
 
 #run featureCounts on all the BAM files, outputting to Project directory 
 echo "Generating read count table with featureCounts..."
-featureCounts -T 12 -p --countReadPairs -s 2 -a ${annotation} -o ${outdir}/heart_rna_read_counts.txt ${bam_list}
-echo "Read count table generated: heart_rna_read_counts.txt"
+featureCounts -T 12 -p --countReadPairs -s 2 -a ${annotation} -o ${outdir}/heart_rna_read_counts_149.txt ${bam_list}
+echo "Read count table generated: heart_rna_read_counts_149.txt"

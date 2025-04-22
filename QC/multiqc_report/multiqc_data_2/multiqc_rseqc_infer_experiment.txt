@@ -1,0 +1,2 @@
+Sample	pe_antisense	failed	pe_sense
+stranded_report	0.9077	0.0802	0.0121

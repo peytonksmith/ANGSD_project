@@ -2,8 +2,8 @@
 #SBATCH --job-name=star_align
 #SBATCH --partition=angsd_class
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=12
-#SBATCH --mem=40G
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=200G
 #SBATCH --time=12:00:00
 #SBATCH --output=job_output_%j.log
 #SBATCH --error=job_error_%j.log
@@ -13,4 +13,5 @@ source $(conda info --base)/etc/profile.d/conda.sh
 
 conda activate angsd
 
-bash ./scripts/star_align.sh
+#choose parallel or regular 
+bash ./scripts/star_align_parallel.sh

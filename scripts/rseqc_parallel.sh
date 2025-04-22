@@ -1,7 +1,6 @@
 #!/bin/bash
 #script to run RSeQC on all bam files in parallel
 
-# number of concurrent processes = cpus per task from SLURM (fallback to 4)
 n_processes=${SLURM_CPUS_PER_TASK}
 
 annotation="/athena/angsd/scratch/pes4008/ref_genomes/genomes/gencode.vM33.annotation.bed"

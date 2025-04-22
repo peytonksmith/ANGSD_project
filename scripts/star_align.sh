@@ -2,7 +2,7 @@
 #run STAR alignment on all downloaded forward/reverse fastq files, index the files, then run feature counts on all of these files and output to a single .txt file
 
 
-genome_dir="/athena/angsd/scratch/pes4008/ref_genomes/STAR_gencode_75_GRCm39"
+genome_dir="/athena/angsd/scratch/pes4008/ref_genomes/STAR_gencode_149_GRCm39"
 
 #loop over all sample ID directories in project folder
 for sample_dir in */; do
@@ -22,7 +22,7 @@ for sample_dir in */; do
          --genomeDir ${genome_dir} \
          --readFilesIn "$fq1" "$fq2" \
          --readFilesCommand zcat \
-         --sjdbOverhang 75 \
+         --sjdbOverhang 149 \
          --outFileNamePrefix "${sra_dir}/${base}.gencode." \
          --outSAMtype BAM SortedByCoordinate
 

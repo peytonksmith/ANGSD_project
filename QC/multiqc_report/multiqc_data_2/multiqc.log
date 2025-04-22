@@ -1,0 +1,172 @@
+[2025-04-22 08:27:41,687] multiqc                                            [DEBUG  ]  This is MultiQC v1.17
+[2025-04-22 08:27:41,689] multiqc                                            [DEBUG  ]  Command used: /athena/angsd/scratch/mef3005/share/envs/multiqc/bin/multiqc /athena/angsd/scratch/pes4008/project/QC /athena/angsd/scratch/pes4008/project -o /athena/angsd/scratch/pes4008/project/QC/multiqc_report
+[2025-04-22 08:27:42,800] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check: module 'packaging.version' has no attribute 'StrictVersion'
+[2025-04-22 08:27:42,806] multiqc                                            [DEBUG  ]  Working dir : /athena/cayuga_0019/scratch/pes4008/project
+[2025-04-22 08:27:42,806] multiqc                                            [DEBUG  ]  Template    : default
+[2025-04-22 08:27:42,806] multiqc                                            [DEBUG  ]  Running Python 3.11.6 | packaged by conda-forge | (main, Oct  3 2023, 10:40:35) [GCC 12.3.0]
+[2025-04-22 08:27:42,808] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2025-04-22 08:27:42,811] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpda_388u0
+[2025-04-22 08:27:42,821] multiqc                                            [INFO   ]  Search path : /athena/angsd/scratch/pes4008/project/QC
+[2025-04-22 08:27:42,821] multiqc                                            [INFO   ]  Search path : /athena/angsd/scratch/pes4008/project
+[2025-04-22 08:27:50,687] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 1850] // [skipped_no_match: 388] // [skipped_ignore_pattern: 124] // [skipped_filesize_limit: 20] // [skipped_directory_fn_ignore_dirs: 3]
+[2025-04-22 08:27:51,774] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.8.1
+[2025-04-22 08:27:51,778] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.8.1
+[2025-04-22 08:27:51,780] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2025-04-22 08:27:51,811] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108307_read_distribution
+[2025-04-22 08:27:51,812] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108302_read_distribution
+[2025-04-22 08:27:51,812] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108297_read_distribution
+[2025-04-22 08:27:51,813] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108295_read_distribution
+[2025-04-22 08:27:51,813] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108308_read_distribution
+[2025-04-22 08:27:51,813] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108299_read_distribution
+[2025-04-22 08:27:51,814] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108289_read_distribution
+[2025-04-22 08:27:51,814] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108293_read_distribution
+[2025-04-22 08:27:51,815] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108290_read_distribution
+[2025-04-22 08:27:51,815] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108294_read_distribution
+[2025-04-22 08:27:51,816] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108298_read_distribution
+[2025-04-22 08:27:51,816] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108292_read_distribution
+[2025-04-22 08:27:51,817] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108296_read_distribution
+[2025-04-22 08:27:51,817] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108304_read_distribution
+[2025-04-22 08:27:51,818] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108305_read_distribution
+[2025-04-22 08:27:51,818] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108301_read_distribution
+[2025-04-22 08:27:51,819] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108291_read_distribution
+[2025-04-22 08:27:51,819] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108303_read_distribution
+[2025-04-22 08:27:51,820] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108306_read_distribution
+[2025-04-22 08:27:51,820] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300_read_distribution
+[2025-04-22 08:27:51,821] multiqc.modules.rseqc.read_distribution            [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300_read_distribution
+[2025-04-22 08:27:51,826] multiqc.modules.rseqc.rseqc                        [INFO   ]  Found 20 read_distribution reports
+[2025-04-22 08:27:51,846] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108299.gencode
+[2025-04-22 08:27:51,847] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108292.gencode
+[2025-04-22 08:27:51,847] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108296.gencode
+[2025-04-22 08:27:51,848] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108290.gencode
+[2025-04-22 08:27:51,848] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108303.gencode
+[2025-04-22 08:27:51,849] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108306.gencode
+[2025-04-22 08:27:51,849] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108302.gencode
+[2025-04-22 08:27:51,850] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108298.gencode
+[2025-04-22 08:27:51,850] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108301.gencode
+[2025-04-22 08:27:51,851] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108291.gencode
+[2025-04-22 08:27:51,852] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108289.gencode
+[2025-04-22 08:27:51,852] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108307.gencode
+[2025-04-22 08:27:51,853] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108297.gencode
+[2025-04-22 08:27:51,853] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108295.gencode
+[2025-04-22 08:27:51,854] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108308.gencode
+[2025-04-22 08:27:51,854] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108304.gencode
+[2025-04-22 08:27:51,855] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108305.gencode
+[2025-04-22 08:27:51,855] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108294.gencode
+[2025-04-22 08:27:51,856] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300.gencode
+[2025-04-22 08:27:51,856] multiqc.modules.rseqc.gene_body_coverage           [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108293.gencode
+[2025-04-22 08:27:51,864] multiqc.modules.rseqc.rseqc                        [INFO   ]  Found 20 gene_body_coverage reports
+[2025-04-22 08:27:51,874] multiqc.modules.rseqc.infer_experiment             [DEBUG  ]  Duplicate sample name found! Overwriting: stranded_report
+[2025-04-22 08:27:51,875] multiqc.modules.rseqc.rseqc                        [INFO   ]  Found 1 infer_experiment reports
+[2025-04-22 08:27:53,788] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2025-04-22 08:27:54,046] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108295.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108290.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108293.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108296.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108292.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108294.gencode
+[2025-04-22 08:27:54,051] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108299.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108298.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108291.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108297.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108302.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108306.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108303.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108305.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108289.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108308.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108301.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108307.gencode
+[2025-04-22 08:27:54,052] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108304.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108295.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108290.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108293.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108296.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108292.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108294.gencode
+[2025-04-22 08:27:54,057] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108299.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108298.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108291.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108297.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108302.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108306.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108303.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108305.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108289.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108308.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108301.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108307.gencode
+[2025-04-22 08:27:54,058] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108304.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108295.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108290.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108293.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108296.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_24Hr_SRR12108292.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108294.gencode
+[2025-04-22 08:27:54,059] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108299.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108298.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108291.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_24Hr_SRR12108297.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108302.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108306.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108303.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108305.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: MI_6Hr_SRR12108289.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108300.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108308.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108301.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108307.gencode
+[2025-04-22 08:27:54,060] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SHAM_6Hr_SRR12108304.gencode
+[2025-04-22 08:27:54,063] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 20 reports
+[2025-04-22 08:27:54,342] multiqc                                            [DEBUG  ]  No samples found: snippy
+[2025-04-22 08:27:54,505] multiqc.modules.star.star                          [INFO   ]  Found 20 reports
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108296_1_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108296_1'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108300_2_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108300_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108293_2_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108293_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108296_2_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108296_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108293_1_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108293_1'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108290_2_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108290_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108304_1_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108304_1'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108298_1_fastqc.zip' as already parsed 'MI_24Hr_SRR12108298_1'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108291_2_fastqc.zip' as already parsed 'MI_24Hr_SRR12108291_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108298_2_fastqc.zip' as already parsed 'MI_24Hr_SRR12108298_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108303_2_fastqc.zip' as already parsed 'MI_6Hr_SRR12108303_2'
+[2025-04-22 08:27:54,657] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108303_1_fastqc.zip' as already parsed 'MI_6Hr_SRR12108303_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108297_2_fastqc.zip' as already parsed 'MI_24Hr_SRR12108297_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108306_2_fastqc.zip' as already parsed 'MI_6Hr_SRR12108306_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108302_2_fastqc.zip' as already parsed 'MI_6Hr_SRR12108302_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108301_1_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108301_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108295_2_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108295_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108290_1_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108290_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108305_1_fastqc.zip' as already parsed 'MI_6Hr_SRR12108305_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108308_1_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108308_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108306_1_fastqc.zip' as already parsed 'MI_6Hr_SRR12108306_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108300_1_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108300_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108295_1_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108295_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108289_2_fastqc.zip' as already parsed 'MI_6Hr_SRR12108289_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108308_2_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108308_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108294_1_fastqc.zip' as already parsed 'MI_24Hr_SRR12108294_1'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108299_2_fastqc.zip' as already parsed 'MI_24Hr_SRR12108299_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108301_2_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108301_2'
+[2025-04-22 08:27:54,658] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108297_1_fastqc.zip' as already parsed 'MI_24Hr_SRR12108297_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108292_2_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108292_2'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108294_2_fastqc.zip' as already parsed 'MI_24Hr_SRR12108294_2'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108299_1_fastqc.zip' as already parsed 'MI_24Hr_SRR12108299_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108305_2_fastqc.zip' as already parsed 'MI_6Hr_SRR12108305_2'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_24Hr_SRR12108292_1_fastqc.zip' as already parsed 'SHAM_24Hr_SRR12108292_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108304_2_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108304_2'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_24Hr_SRR12108291_1_fastqc.zip' as already parsed 'MI_24Hr_SRR12108291_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108307_2_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108307_2'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108289_1_fastqc.zip' as already parsed 'MI_6Hr_SRR12108289_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SHAM_6Hr_SRR12108307_1_fastqc.zip' as already parsed 'SHAM_6Hr_SRR12108307_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'MI_6Hr_SRR12108302_1_fastqc.zip' as already parsed 'MI_6Hr_SRR12108302_1'
+[2025-04-22 08:27:54,659] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 40 reports
+[2025-04-22 08:27:54,764] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2025-04-22 08:27:54,804] multiqc                                            [DEBUG  ]  Compressing plot data
+[2025-04-22 08:27:55,492] multiqc                                            [INFO   ]  Existing reports found, adding suffix to filenames. Use '--force' to overwrite.
+[2025-04-22 08:27:55,493] multiqc                                            [INFO   ]  Report      : ../../../../angsd/scratch/pes4008/project/QC/multiqc_report/multiqc_report_2.html
+[2025-04-22 08:27:55,493] multiqc                                            [INFO   ]  Data        : ../../../../angsd/scratch/pes4008/project/QC/multiqc_report/multiqc_data_2
+[2025-04-22 08:27:55,493] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpda_388u0/multiqc_data' to '/athena/angsd/scratch/pes4008/project/QC/multiqc_report/multiqc_data_2'
+[2025-04-22 08:27:55,515] multiqc                                            [DEBUG  ]  Full report path: /athena/cayuga_0019/scratch/pes4008/project/QC/multiqc_report/multiqc_report_2.html
+[2025-04-22 08:27:55,710] multiqc                                            [INFO   ]  MultiQC complete
